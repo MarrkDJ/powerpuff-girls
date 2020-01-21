@@ -1,0 +1,32 @@
+.back-link {
+  width: 100%;
+}
+
+.episode-detail-page {
+  display: flex;
+  flex-flow: row wrap;
+
+  &__episode-info,
+  &__image-container {
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+
+  &__image-container__image {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 600px)  {
+    &__episode-info {
+      width: 50%;
+      margin-right: 10%;
+    }
+
+    &__image-container {
+      width: 40%;
+    }
+  }
+}
