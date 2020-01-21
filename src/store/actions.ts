@@ -35,7 +35,7 @@ export const setError = (error: any) => {
     }
 };
 
-export const setSelectedEpisode = (selectedEpisode: any) => {
+export const setSelectedEpisode = (selectedEpisode: IShowEpisode) => {
     return {
         type: actionTypes.SET_SELECTED_EPISODE,
         payload: selectedEpisode

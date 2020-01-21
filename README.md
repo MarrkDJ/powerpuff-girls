@@ -21,3 +21,8 @@ The PowerPuff Girls SPA application for demonstrating development principles
 - More and better TypeScript typing
 - Clearing selected item on navigating back
 - Add tests
+- Styling
+- Error handling
+- 404 page
+- Responsive images
+
